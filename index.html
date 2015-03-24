@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Charset -->
+  <meta charset="utf-8">
+
+  <!-- Viewport for Responsiveness -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="http://www.lewagon.org/assets/logo-f800df98aa2605c552400667353f47d2.png" />
+
+  <title>eyegent</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <!-- Google fonts CSS -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="stylesheets/home.css">
+
+</head>
+<body>
+
+  <div id="banner">
+    <h2>We are an application developped for bookers and their DJs </h2>
+    <h2>that travel around the world. Thanks to eyegent you can </h2>
+    <h2>get all your riders into a unique and synchronized solution</h2>
+    <br>
+    <a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#order-form">Try it, it's free</a>
+  </div>
+
+
+  <div class="blue-bg padded">
+    <div class="container text-center" id="features">
+      <h1><strong>SO WHAT ?<strong></h1>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="card">
+            <img src="images/support.png" width="300">
+            <h3><strong>USE A UNIQUE SOLUTION<strong></h3>
+            <h3>All riders under one and unique solution</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="card">
+            <img src="images/synch.png" width="300">
+            <h3><strong>GET SYNCHRONIZED<strong></h3>
+            <h3>All modifications are available on all your supports</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="card">
+            <img src="images/share.png"width="300">
+            <h3><strong>SHARING<strong></h3>
+            <h3>The solution allow sharing with the related users</h3>
+          </div>
+        </div>
+      </div>
+      <a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#order-form">Try it, it's free</a>
+    </div>
+  </div>
+
+  <div id="backgroundmachine">
+    <h1><strong>HOW DOES IT WORK ?<strong></h1>
+    <br>
+    <h2>Forward all your booking confirmation</h2>
+    <h2> emails to eyegent and receive your</h2>
+    <h2> itinerary under our application</h2>
+    <br>
+    <a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#order-form">Try it, it's free</a>
+  </div>
+
+  <div id="banneriphone">
+    <h1><strong>OUR MOTO<strong></h1>
+     <br>
+     <h2>"We will change your life</h2>
+     <h2>not your habits"</h2>
+     <br>
+     <a href="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#order-form">Try our free trial</a>
+  </div>
+
+  <div class="text-center padded">
+    <h2>Be one of the first to test our BETA Version</h2>
+    <p>Leave us your mail</p>
+
+   <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="http://eyegent.us10.list-manage.com/subscribe/post?u=d15b9d97849d035896fc1cdb1&amp;id=6471259158" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="mc-field-group">
+</label>
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="carlos@gmail.com">
+</div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_d15b9d97849d035896fc1cdb1_6471259158" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+
+  </div>
+
+  <div id="map" style="width: 100%; height: 400px;"></div>
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+  <script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(48.864656, 2.380904);
+
+  var myOptions = {
+    zoom: 16,
+    center: myLatlng,
+    scrollwheel: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title:"You are here!"
+  });
+  </script>
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <ul class="list-inline">
+            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>Eyegent is an application design by Iker Morales and Aurelien POTIER</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order modal -->
+  <div class="modal fade" id="order-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Order</h4>
+        </div>
+        <div class="modal-body">
+          <iframe height="453" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://eyegent.wufoo.com/embed/zpc7jay1pwz12l/"><a href="https://eyegent.wufoo.com/forms/zpc7jay1pwz12l/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"><span class="notranslate">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

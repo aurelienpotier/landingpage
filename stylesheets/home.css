@@ -1,0 +1,56 @@
+@import url("banner.css");
+@import url("footer.css");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414;
+}
+
+.card{
+  padding: 10px;
+  font-weight: 300;
+}
+
+.card h2{
+  font-size: 20px;
+}
+
+.card h3{
+  font-size: 20px;
+  color: #cccccc;
+}
+
+.card h4{
+  font-size: 20px;
+  color: #1EAD85;
+}
+
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.blue-bg {
+  background: #1EAD85;
+  color: white;
+}
+
+#banneriphone 
+{
+  background-image: url(../images/backgroundiphone.jpg);
+  color: white;
+  padding: 300px 50px;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+#backgroundmachine
+{
+  background-image: url(../images/machine.jpg);
+  color: #1EAD85;
+  padding:300px 50px;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+}
